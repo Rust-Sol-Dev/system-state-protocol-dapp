@@ -1,0 +1,78 @@
+.open_vault_view {
+    text-decoration: none;
+    font-size: 1rem;
+    color: black;
+    height: 3.5rem;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    width: 500px;
+    border-radius: 10px;
+    justify-content: center;
+    /* font-family: 'Roboto', sans-serif; */
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+.searchBar {
+    gap: 1rem;
+    align-items: center;
+}
+
+.open_vault_view{
+
+}
+
+.tokenSize{
+    width: 8rem;
+    margin-right: 1rem;
+    margin-bottom: 0;
+}
+.first_pump_serchbar:hover{
+    box-shadow: 2px 0px 6px 6px rgba(177, 176, 176, 0.75);
+}
+
+.serachIconLink{
+    text-decoration: none;
+}
+@media only screen and (max-width: 768px) {
+    .open_vault_view {
+        width: 100%;
+    }
+    .searchBar2_small{
+        width: 100%;
+    }
+    .firstSeach_small{
+        width: 100%;
+    }
+
+}
+
+@media only screen and (max-width: 1278px) {
+
+    .searchBar {
+        flex-direction: column-reverse;
+        align-items: flex-start;
+    }
+    .searchBar{
+        align-items: flex-start;
+    }
+}
+@media only screen and (max-width: 992px) {
+
+    .graph_inscription_main  {
+        margin-top: 4rem;
+    }
+}
+@media only screen and (max-width: 773px) {
+
+    .graph_inscription_main  {
+        margin-top: 4.7rem;
+    }
+}
+@media only screen and (max-width: 768px) {
+
+    .graph_inscription_main  {
+        margin-top: 13rem;
+    }
+}

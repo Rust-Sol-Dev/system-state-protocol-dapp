@@ -1,0 +1,88 @@
+/* 
+svg{
+    height: 400px !important;
+    width: 400px !important;
+} */
+
+.graph_layout {
+    display: block;
+    height: 17rem;
+}
+
+.recharts-responsive-container {
+    width: 118% !important;
+    /* position: relative !important; */
+}
+
+.graphBox {
+    border: 1px solid black;
+    border-radius: 1rem;
+    width: 25rem;
+    padding: 8px;
+}
+
+.graph_section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.recharts-layer {
+    font-size: 0.65rem;
+    font-weight: 400;
+}
+
+.chartTitle {
+    text-align: center;
+    color: #5f17eb;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+}
+
+text {
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+}
+
+/* Theme CSS */
+
+/* .graphBox_darkThim {
+    border: 1px solid black;
+    border-radius: 1rem;
+    width: 25rem;
+    padding: 8px;
+
+} */
+
+@media only screen and (max-width: 450px) {
+    .graphBox {
+        width: 21rem;
+    }
+}
+
+
+
+/* -------------- */
+
+.recharts-wrapper{
+    max-width: 93% !important;
+    position: relative;
+    cursor: default;
+    width:81% !important;
+    height: 100% !important;
+    height: 269px;
+    max-height: 100%;
+}
+/* svg{
+    height: 400px !important;
+    width: 400px !important;
+    max-width: 400px !important;
+    max-width: 400px !important;
+}
+
+.recharts-wrapper svg{
+    height: 100% !important;
+    width: 100% !important;
+} */

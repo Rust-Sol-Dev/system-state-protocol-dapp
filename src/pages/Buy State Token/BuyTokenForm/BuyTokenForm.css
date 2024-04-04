@@ -1,0 +1,35 @@
+.main-section-Buy{
+    border-radius: 0.5rem;
+    border: 1px solid #dadbdc;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    box-shadow: rgb(227 227 227 / 10%) 0px 4px 12px;
+}
+.input-contarctId{
+    border-radius: 6px;
+    border:1px solid #767676;
+    width: 90%;
+}
+.input-contarctId:focus{
+    border-radius: 6px;
+    border:1px solid #767676;
+}
+.token-chain{
+    width: 90%;
+    height: 40px;
+    border-radius: 0.5rem;
+    padding: 10px;
+}
+.main-table-header{
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+.input-width{
+    width: 95%;
+}
+.font-family{
+    letter-spacing: 0.3px;
+    font-weight: 300;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+}

@@ -1,0 +1,50 @@
+.sizemax_align {
+    height: -moz-fit-content;
+    height: fit-content;
+    width: 100% !important;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding-top: 1rem;
+    padding-bottom: 3rem;
+    border-radius: 0.5rem;
+    margin: 0 auto;
+}
+
+.graphDimThemeCusm{
+    box-shadow: rgb(227 227 227 / 10%) 0px 4px 12px;
+    background-color: #111a2e;
+}
+
+.garph_box {
+    width: 407px;
+    height: 271px;
+
+}
+
+.garph_has {
+    width: 100%;
+    height: 100%;
+    border: 1px solid #dadbdc;
+    border-radius: 1rem;
+}
+
+.graph_boxPara {
+    margin: 0 auto;
+    text-align: center;
+    font-size: 1rem;
+    color: #5f17eb;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*Dim Theme css */
+
+.graph_has_theme {
+    width: 100%;
+    height: 100%;
+    border: 1px solid #4a535a;
+    border-radius: 1rem;
+}

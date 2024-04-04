@@ -1,0 +1,656 @@
+/* font-family: 'Roboto', sans-serif; */
+/* * {
+    color: #f4f6fc;
+    font-family: 'Roboto Mono', monospace;
+} */
+/* body{
+    color: #f4f6fc;
+    font-family: 'Roboto Mono', monospace;
+} */
+.web {
+    color: #f4f6fc;
+    font-family: 'Roboto Mono', monospace;
+    height: 5rem;
+    margin: auto;
+    display: flex;
+    font-size: large;
+}
+
+.web nav {
+    color: #f4f6fc;
+    font-family: 'Roboto Mono', monospace;
+    margin: auto;
+    width: 100%;
+}
+
+.information {
+    /* margin-right: 31px; */
+    display: flex;
+    color: #f4f6fc;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.information a {
+    text-decoration: none;
+    color: white;
+}
+
+.information i {
+    margin: auto 0px auto 0px;
+    color: #f4f6fc;
+}
+
+.enter {
+    font-size: 15px;
+}
+
+.information div {
+    font-size: 15px;
+    margin: auto;
+    color: #f4f6fc;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.DarkWaves img {
+    color: #f4f6fc;
+    font-family: 'Roboto Mono', monospace;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.DarkWaves {
+    height: 100%;
+    color: #f4f6fc;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.SystemStateLogo {
+    width: 100%;
+    height: 100%;
+    color: #f4f6fc;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.mainBg {
+    height: 100vh;
+    background-color: rgb(0 0 0);
+    color: #f4f6fc;
+    font-family: 'Roboto Mono', monospace;
+}
+
+#background-color {
+    background-color: #f4f6fc;
+}
+
+.SectionBg {
+    background-color: black;
+    /* height: 100vh; */
+    height: auto;
+    color: #f4f6fc;
+    font-family: 'Roboto Mono', monospace;
+    /* padding-bottom: 1rem; */
+}
+
+.paddingBottomS1 {
+    padding-bottom: 1rem;
+}
+
+.State {
+    height: 5rem;
+    /* margin: 10px 0; */
+    display: flex;
+    align-items: center;
+    color: #f4f6fc;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.under-state {
+    width: 3.5rem;
+    color: #f4f6fc;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.state-text {
+    font-size: 3.4rem;
+    padding-left: 15px;
+    font-weight: 900;
+    color: #f4f6fc;
+    font-family: 'Roboto Mono', monospace;
+    margin: 0;
+}
+
+@media screen and (max-width: 768px) {
+
+    .state-text {
+        font-size: 7vw;
+        font-weight: 900;
+        color: #f4f6fc;
+        font-family: 'Roboto Mono', monospace;
+        margin: 0;
+    }
+
+    .under-state {
+        width: 3em;
+        color: #f4f6fc;
+        font-family: 'Roboto Mono', monospace;
+    }
+
+    .SectionBg {
+        height: unset;
+    }
+}
+
+.twitter {
+    background: black;
+    border-radius: 5rem;
+    width: 100%;
+    display: flex;
+    height: 100%;
+    vertical-align: middle;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex !important;
+    color: #f4f6fc;
+    font-family: 'Roboto Mono', monospace;
+
+}
+
+.twitter::before {
+    align-items: center;
+    text-align: center;
+    color: #f4f6fc;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.icon-main {
+    width: 3rem;
+    display: flex;
+    height: 3rem;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    vertical-align: middle;
+    background-color: white;
+    font-size: 2rem;
+    color: #f4f6fc;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    color: #f4f6fc;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.TelegramIcon {
+    width: 3rem;
+    height: 3rem;
+    color: #f4f6fc;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.TwitterXIcon {
+    /* background-color: black; */
+    margin: 10px;
+    color: #f4f6fc;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.TwitterXIcon-main {
+    width: 3rem;
+    height: 3rem;
+    color: #f4f6fc;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.TelegramIcon img {
+    width: 78%;
+    height: 100%;
+    filter: invert();
+    color: #f4f6fc;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.imageIcon {
+    background-color: black;
+    border-radius: 50%;
+    padding: 3px;
+}
+
+.imageIcon img {
+    width: 100%;
+    height: 100%;
+    border-radius: 5rem;
+    color: #f4f6fc;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.state-main {
+    height: fit-content;
+    color: #f4f6fc;
+    font-family: 'Roboto Mono', monospace;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.state-main :first-child {
+    font-size: 15px;
+    color: #f4f6fc;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.trans-3d {
+    transform: rotate(180deg);
+}
+
+.enter:hover {
+    opacity: 0.8;
+    cursor: pointer;
+    color: #f4f6fc;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.waves {
+    width: 92%;
+    height: 100%;
+}
+
+.sec-text {
+    color: #f4f6fc;
+    font-family: 'Roboto Mono', monospace;
+    padding: 6rem;
+    align-items: center;
+    display: flex;
+    height: 100%;
+}
+
+.sec-list-text {
+    color: #f4f6fc;
+    font-family: 'Roboto Mono', monospace;
+    /* padding: 6rem; */
+    align-items: center;
+    display: flex;
+    height: 100%;
+}
+
+.sec-text p {
+    font-family: 'Roboto Mono', monospace;
+    margin: 0;
+    line-height: 2rem;
+    font-weight: 600;
+    font-size: 15px;
+    letter-spacing: 2px;
+    color: #f4f6fc;
+}
+
+.sec-list-text p {
+    margin: 0;
+    line-height: 2rem;
+    font-weight: 600;
+    font-size: 15px;
+    letter-spacing: 2px;
+    color: #f4f6fc;
+    font-family: 'Roboto Mono', monospace;
+}
+
+#text-color {
+    color: black;
+}
+
+.flex-section3 {
+    padding-bottom: 1rem;
+    gap: 20px;
+}
+
+.width-icons {
+    width: 140px;
+}
+
+.section3tip-main {
+    background-color: #111a2e !important;
+    position: absolute;
+    font-family: 'Roboto Mono', monospace;
+    background-color: #d9d9d9;
+    color: white;
+    font-weight: 600;
+    font-size: 14px;
+    border-radius: 20px;
+    width: 72%;
+    height: -moz-fit-content;
+    height: fit-content;
+    align-items: center;
+    padding: 1rem;
+    display: flex;
+    right: 0;
+    bottom: 62px;
+    text-align: start;
+}
+
+.image-align {
+    text-align: center;
+    margin: 0 auto;
+}
+
+#text-color ul {
+    margin: 0;
+    line-height: 2rem;
+    font-weight: 600;
+    font-size: 15px;
+    letter-spacing: 2px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.waves-main {
+    background: #f4f6fc;
+    display: flex;
+    height: 100%;
+}
+
+.section3-main-wave {
+
+    background: #f4f6fc;
+    display: flex;
+}
+
+.section-padding {
+    height: 47rem;
+    padding-left: 4rem;
+    padding-right: 4rem
+}
+
+.background-images {
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    /* margin: auto; */
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding-bottom: 1rem;
+    padding-top: 2rem;
+    padding-right: 2rem;
+    padding-left: 4rem;
+}
+
+.waves-div {
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding-bottom: 2rem;
+}
+
+.footer-margin {
+    margin-left: 2.4%;
+}
+
+.bg-image {
+    background-image: url('../Assets/High-Resolutions-Svg/Updated/section3-bg.svg');
+}
+
+.width-Bgh {
+
+    width: 86%;
+    position: relative;
+    right: -87px;
+    height: 100%;
+}
+
+.tip-main {
+    font-family: 'Roboto Mono', monospace;
+    background-color: #d9d9d9;
+    color: black;
+    font-weight: 600;
+    border-radius: 20px;
+    width: 75%;
+    height: fit-content;
+    align-items: center;
+    padding: 1rem;
+    display: flex;
+    right: 32px;
+    bottom: 45px;
+}
+
+.tip-main p {
+    margin: 0;
+}
+
+.section-imageBg {
+    padding-right: 2rem;
+    background: #f4f6fc;
+    display: flex;
+    height: 44rem;
+    height: 100%;
+}
+
+#bg-color-section {
+    background-color: black;
+}
+
+.section3 {
+    position: relative;
+    height: 115vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    font-family: 'Roboto Mono', monospace;
+    color: #f4f6fc;
+}
+
+.section-3-1 {
+    padding-bottom: 1rem;
+    height: -moz-fit-content;
+    height: fit-content;
+    font-family: 'Roboto Mono', monospace;
+    color: #f4f6fc;
+}
+
+.height-section_2 {
+    height: 45rem;
+}
+
+.paddings-tb {
+    padding-bottom: 2rem;
+    padding-top: 1rem;
+}
+
+.tip-section3 {
+    position: absolute;
+    margin-right: 6%;
+    font-size: 14px;
+    bottom: 0;
+    font-family: 'Roboto Mono', monospace;
+    background-color: #f4f6fc;
+    color: black;
+    font-weight: 600;
+    border-radius: 20px;
+    height: -moz-fit-content;
+    height: fit-content;
+    align-items: center;
+    padding: 1rem;
+    width: 45%;
+    display: flex;
+    right: 60px;
+}
+.image-section-3 {
+    float: right;
+    width: 80%;
+    margin-right: 3rem;
+}
+
+.under-sec3 {
+    margin: auto 0;
+    padding: 0 4rem;
+    height: 100%;
+    display: flex;
+}
+
+.content1,
+.content2,
+.content3 {
+    font-family: 'Roboto Mono', monospace;
+    padding: 0.5rem 0;
+    color: #f4f6fc;
+}
+
+.escrow-vault-tips {
+    position: relative;
+}
+
+.escrow-tip-main {
+    position: absolute;
+    font-family: 'Roboto Mono', monospace;
+    background-color: #f4f6fc;
+    color: black;
+    font-weight: 600;
+    border-radius: 20px;
+    width: 100%;
+    height: 8rem;
+    align-items: center;
+    margin: auto;
+    padding: 2rem;
+    width: 28rem;
+    display: flex;
+    right: 0;
+    bottom: 3rem;
+    left: 0;
+}
+
+.escrow-tip-main p {
+    margin: 0;
+}
+
+.footer-section {
+    font-family: 'Roboto Mono', monospace;
+    width: 100%;
+    background-color: #f4f6fc;
+    color: black;
+    margin: 0 auto;
+    text-align: center;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.footer-icons {
+    width: 250px;
+}
+
+.footerImage {
+    width: 30px;
+    height: 30px;
+}
+
+.footerImage-3 {
+    width: 50px;
+    height: 50px;
+}
+
+@media only screen and (max-width: 750px) {
+    .section3tip-main {
+        bottom: 7px;
+        width: 100%;
+    }
+
+    .tip-section3 {
+        width: 75%;
+    }
+
+    .tip-main {
+        width: 100%;
+    }
+
+    .under-state {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .state-main {
+        margin-top: 3rem;
+        justify-content: center;
+    }
+
+    .width-icons {
+        margin-top: 5px;
+        width: 170px;
+    }
+
+    #media-query {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .res-1 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .res-2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+.section1 {
+    height: 100vh;
+}
+@media only screen and (max-width: 2000px) {
+/* 
+    .section2,
+    .section-3-1,
+    .footer-section {
+        display: none !important;
+    } */
+
+    .section1 {
+        height: unset;
+    }
+}
+
+.quick-desk{
+    display: block;
+    margin-left: 1rem !important;
+}
+.quick-mob{
+    display: none;
+}
+@media only screen and (max-width: 450px) {
+    .web{
+        padding-top: 1rem;
+    }
+    .quick-desk{
+        display: none;
+    }
+    .quick-mob{
+        display: block;
+    }
+    .quick-mob a{
+        text-decoration: none;
+        color: white;
+        font-size: 15px;
+        font-family: 'Roboto Mono', monospace;
+    }
+}
+.footer{
+    font-size: 8px;
+}
+@media only screen and (max-width: 1150px) {
+    .searchBar{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}
+

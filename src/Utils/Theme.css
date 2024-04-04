@@ -1,0 +1,155 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.Theme-block-container{
+    background-color: #111111 !important;
+    border: 1px solid #2c2c2c;
+    box-shadow: rgb(227 227 227 / 10%) 0px 4px 12px
+}
+.ThemeBoxShadow{
+    box-shadow: rgb(227 227 227 / 10%) 0px 4px 12px
+
+}
+.Theme-background-logo{
+    background: #252525 !important;
+  }
+
+.Theme-btn-block{
+    background-color: #1c1919 !important;
+    color: white !important;
+    border: 1px solid #646262 !important;
+}
+
+.Theme-block-time{
+    opacity: 0.6;
+    color: #c0c0c0 ;
+}
+.Theme-col2-para{
+    color: white;
+}
+.Theme-box-item{
+    border-top:1px solid rgb(40 40 40) !important;
+    background-color: #111111;
+}
+.Theme-view-page{
+    border-top:1px solid rgb(32 32 32) !important;
+    background-color: #111111;
+}
+.darkColorTheme{
+    color: #bbb;
+    opacity: 1;
+}
+
+.TrackSpanText{
+    color: white !important;
+}
+.trackingBorder{
+    border-right:1px solid rgb(40 40 40) !important;
+}
+.dimThemeTrackBorder{
+    border-right: 1px solid #273343 !important;
+}
+.themeIcon{
+    background: url('../Assets/Icons/globe-1.svg') no-repeat center !important;
+}
+.Theme-index-class{
+    background-color: #151515 !important;
+}
+
+.darkThemeTrackingBg{
+    background-color: #151515 !important;
+}
+.darkColor{
+    color: white !important;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*  */
+
+.dimThemeBg{
+    border: 1px solid #273343 !important;
+    box-shadow: rgb(227 227 227 / 10%) 0px 4px 12px;
+    background-color: #111a2e !important;
+}
+.dimThemeBg_viewBar{
+    border: 1px solid #273343 !important;
+    box-shadow: rgb(227 227 227 / 10%) 0px 4px 12px;
+    background-color: #111a2e !important;
+
+    text-decoration: none;
+    font-size: 1rem;
+    color: white;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    width: 500px;
+    border-radius: 10px;
+    justify-content: center;
+    /* font-family: 'Roboto', sans-serif; */
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+.seachThemeBgDim{
+    background-color: #0b1120 !important;
+}
+.seachThemeBgDark{
+    background-color: #0a0a0a !important;
+}
+.dim-theme-items{
+    background-color: #111a2e !important;
+}
+.dimThemeBlockIcon{
+    background-color: #162138;
+}
+.dimThemeBlockIcon{
+    background-color: #162138 !important;
+}
+.dimThemeBtnBg{
+    color: white !important;
+    border: 1px solid #323b4c !important;
+    background-color: #111a2e !important;
+}
+
+.dimThemeBlockView{
+    color: #aac1de !important;
+}
+
+.title-color{
+    color: white;
+}
+.dim-theme-items-border{
+    border-top: 1px solid #273343 !important;
+}
+.borderState{
+    border:1px solid #343232 !important;
+}
+.golbCol{
+    color: #cbd5e1;
+}
+/* Tracking section Theme */
+.DarkThemeBorderBtm{
+    border-bottom:1px solid rgb(40 40 40) !important;
+}
+.DarkThemeBorderRgt{
+    border-right:1px solid rgb(40 40 40) !important;
+}
+.themeTrackBorder{
+    border-right: 1px solid #273343;
+}
+.themeTrackBorderBtm{
+    border-bottom: 1px solid #273343;
+}
+.dimTheme-index-class{
+    background-color: #141f35 !important;
+}
+.dimThemeTrackingPg{
+    background-color: #151f35 !important;
+}
+.firstdumDark{
+    background-color: #0a0a0a !important;
+    border: 1px solid #2c2c2c;
+    box-shadow: rgb(227 227 227 / 10%) 0px 4px 12px
+}

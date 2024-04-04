@@ -1,0 +1,8 @@
+
+.lightThemeBack{
+    --bs-main-content-linear-gradient-from: #fafbfd;
+    --bs-main-content-linear-gradient-to: 246,247,248;
+    flex-grow: 1;
+    min-height: 30rem;
+    background-image: linear-gradient(var(--bs-main-content-linear-gradient-from) 0,rgba(var(--bs-main-content-linear-gradient-to),0) 85rem);
+}

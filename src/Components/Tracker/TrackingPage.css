@@ -1,0 +1,271 @@
+.fontSize {
+    font-size: .75rem;
+    letter-spacing: .5px;
+    text-transform: uppercase;
+    color: #6c757d;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+}
+
+.margin-right {
+    margin-right: 16px;
+}
+
+.varSize {
+    font-size: .9375rem;
+}
+
+.spanText {
+    font-size: 0.9375rem;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+}
+.spanTextAdd {
+    font-size: 0.5375rem;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    text-decoration: none;
+}
+.newBlockAdd{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: flex-start;
+}
+
+.main-section {
+    position: relative;
+    top: -62px;
+    border-radius: 0.5rem;
+    border: unset;
+}
+
+.border-right {
+    border-right: 1px solid #dadbdc;
+}
+
+hr {
+    color: #6a6f75;
+}
+
+.iconSize {
+    font-size: 1.5rem;
+}
+
+.hei {
+    height: 30px;
+}
+
+
+[data-tooltip] {
+    position: relative;
+    cursor: pointer;
+}
+
+[data-tooltip]:before,
+[data-tooltip]:after {
+    line-height: 1;
+    font-size: .9em;
+    pointer-events: none;
+    position: absolute;
+    box-sizing: border-box;
+    display: none;
+    opacity: 0;
+}
+
+[data-tooltip]:before {
+    content: "";
+    border: 5px solid transparent;
+    z-index: 100;
+}
+
+[data-tooltip]:after {
+    content: attr(data-tooltip);
+    width: 13rem;
+    min-width: 3em;
+    font-size: 10px;
+    max-width: 21em;
+    line-height: 15px;
+    text-overflow: ellipsis;
+    padding: 8px 20px;
+    border-radius: 10px;
+    background: #111a2e;
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+    z-index: 99;
+}
+
+[data-tooltip]:hover:before,
+[data-tooltip]:hover:after {
+    display: block;
+    opacity: 1;
+}
+
+[data-tooltip]:not([data-flow])::before,
+[data-tooltip][data-flow="top"]::before {
+    bottom: 100%;
+    border-bottom-width: 0;
+    border-top-color: #4621FF;
+}
+
+[data-tooltip]:not([data-flow])::after,
+[data-tooltip][data-flow="top"]::after {
+    bottom: calc(100% + 5px);
+}
+
+[data-tooltip]:not([data-flow])::before,
+[tooltip]:not([data-flow])::after,
+[data-tooltip][data-flow="top"]::before,
+[data-tooltip][data-flow="top"]::after {
+    left: 50%;
+    -webkit-transform: translate(-50%, -4px);
+    transform: translate(-50%, -4px);
+}
+
+[data-tooltip][data-flow="bottom"]::before {
+    top: 100%;
+    border-top-width: 0;
+    border-bottom-color: #111a2e;
+}
+
+[data-tooltip][data-flow="bottom"]::after {
+    top: calc(100% + 5px);
+}
+
+[data-tooltip][data-flow="bottom"]::before,
+[data-tooltip][data-flow="bottom"]::after {
+    left: 50%;
+    -webkit-transform: translate(-50%, 8px);
+    transform: translate(-50%, 8px);
+}
+
+[data-tooltip][data-flow="left"]::before {
+    top: 50%;
+    border-right-width: 0;
+    border-left-color: #4621FF;
+    left: calc(0em - 5px);
+    -webkit-transform: translate(-8px, -50%);
+    transform: translate(-8px, -50%);
+}
+
+[data-tooltip][data-flow="left"]::after {
+    top: 50%;
+    right: calc(100% + 5px);
+    -webkit-transform: translate(-8px, -50%);
+    transform: translate(-8px, -50%);
+}
+
+[data-tooltip][data-flow="right"]::before {
+    top: 50%;
+    border-left-width: 0;
+    border-right-color: #4621FF;
+    right: calc(0em - 5px);
+    -webkit-transform: translate(8px, -50%);
+    transform: translate(8px, -50%);
+}
+
+[data-tooltip][data-flow="right"]::after {
+    top: 50%;
+    left: calc(100% + 5px);
+    -webkit-transform: translate(8px, -50%);
+    transform: translate(8px, -50%);
+}
+
+[data-tooltip=""]::after,
+[data-tooltip=""]::before {
+    display: none !important;
+}
+
+.dim-tooltip[data-tooltip]:after {
+    background: #353e51;
+}
+.dim-tooltip[data-tooltip][data-flow="bottom"]::before {
+    border-bottom-color: #353e51;
+}
+.dark-tooltip[data-tooltip]:after {
+    background: #262931;
+}
+.dark-tooltip[data-tooltip][data-flow="bottom"]::before {
+    border-bottom-color: #262931;
+}
+.parity-distributed{
+    height: 0;
+}
+.parity-distributed span{
+    font-size: 12px;
+}
+
+.infoIcoxOuterBox{
+    width: 1rem;
+    height: 1rem;
+    background-color: black;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.InfoIcon{
+    color: #ffffff;
+    padding: 3px;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: lowercase;
+}
+
+.infoIcoxOuterBox:hover{
+    cursor: pointer;
+}
+
+.uniqHeight{
+    height: 5rem;
+}
+.uniqHeightxyz{
+    height: 3rem;
+}
+
+.extraFlex{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.pumpBoxImg{
+    width: 7rem;
+}
+
+.pumpBoxImg img{
+    width: 4rem;
+}
+
+.first_pump_boxIcon{
+    background-color: #111a2e;
+    padding: 5px 25px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.first_pump_boxIcon:hover{
+    box-shadow: 2px 0px 6px 6px rgba(177, 176, 176, 0.75);
+}
+
+.contractClass{
+    gap: 0.5rem;
+}
+
+.customeHeight{
+    height: 6rem;
+}
+
+.tooltipAlign{
+    display: flex;
+    align-items: flex-end;
+    font-size: 1rem;
+}
+
+.hoverText{
+    text-transform: uppercase;
+}
+
+.heightfixBug{
+    height: fit-content;
+}

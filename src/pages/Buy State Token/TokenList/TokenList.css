@@ -1,0 +1,213 @@
+.sc-hLQTFJ {
+    font-family: 'Roboto', sans-serif;
+    font-size: .9062rem;
+}
+
+.fEnJOm {
+    font-weight: bold;
+}
+
+.fgjSOd {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.eth-color {
+    color: #6c757d;
+}
+
+.table-section {
+    border-radius: 0.5rem;
+}
+
+.sc-jsEeA-d {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#table-title {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.171875rem;
+    font-weight: 600;
+    color: #212529;
+}
+
+.rdt_TableHeader,
+.rdt_TableRow {
+    font-family: 'Roboto', sans-serif;
+    font-size: .78515625rem;
+
+}
+
+/* .btn-meta{
+    border:none;
+    width: 60px;
+    height: 30px;
+    background-color: rgb(99, 206, 99);
+    padding: 2px;
+    border-radius: 4px;
+} */
+
+.metaMaskIcon {
+    margin: 0 auto;
+    width: 40px;
+    height: 40px;
+}
+
+.rdt_TableCell {
+    width: 100%;
+}
+
+.metamaskIcon {
+    width: 130px;
+    padding: 3px;
+    background-color: rgb(206, 204, 204);
+    border-radius: 1rem;
+}
+
+.bFyntL {
+    min-width: fit-content !important;
+}
+
+.metamask-btn {
+    -webkit-text-size-adjust: 100%;
+    tab-size: 4;
+    box-sizing: border-box;
+    border: 0 solid #e5e7eb;
+    --tw-border-spacing-x: 0;
+    --tw-border-spacing-y: 0;
+    --tw-translate-x: 0;
+    --tw-translate-y: 0;
+    --tw-rotate: 0;
+    --tw-skew-x: 0;
+    --tw-skew-y: 0;
+    --tw-scale-x: 1;
+    --tw-scale-y: 1;
+    --tw-pan-x: ;
+    --tw-pan-y: ;
+    --tw-pinch-zoom: ;
+    --tw-scroll-snap-strictness: proximity;
+    --tw-ordinal: ;
+    --tw-slashed-zero: ;
+    --tw-numeric-figure: ;
+    --tw-numeric-spacing: ;
+    --tw-numeric-fraction: ;
+    --tw-ring-inset: ;
+    --tw-ring-offset-width: 0px;
+    --tw-ring-offset-color: #fff;
+    --tw-ring-color: rgba(59, 130, 246, .5);
+    --tw-ring-offset-shadow: 0 0 #0000;
+    --tw-ring-shadow: 0 0 #0000;
+    --tw-shadow: 0 0 #0000;
+    --tw-shadow-colored: 0 0 #0000;
+    --tw-blur: ;
+    --tw-brightness: ;
+    --tw-contrast: ;
+    --tw-grayscale: ;
+    --tw-hue-rotate: ;
+    --tw-invert: ;
+    --tw-saturate: ;
+    --tw-sepia: ;
+    --tw-drop-shadow: ;
+    --tw-backdrop-blur: ;
+    --tw-backdrop-brightness: ;
+    --tw-backdrop-contrast: ;
+    --tw-backdrop-grayscale: ;
+    --tw-backdrop-hue-rotate: ;
+    --tw-backdrop-invert: ;
+    --tw-backdrop-opacity: ;
+    --tw-backdrop-saturate: ;
+    --tw-backdrop-sepia: ;
+    font-family: inherit;
+    font-size: 100%;
+    line-height: inherit;
+    margin: 0;
+    text-transform: none;
+    -webkit-appearance: button;
+    background-image: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .5rem;
+    border-radius: 10px;
+    --tw-bg-opacity: 1;
+    background-color: rgb(222 222 222/var(--tw-bg-opacity));
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    font-weight: 500;
+    --tw-text-opacity: 1;
+    color: rgb(0 0 0/var(--tw-text-opacity));
+}
+
+/* .shadowDim {
+    box-shadow: rgb(227 227 227 / 10%) 0px 4px 12px;
+} */
+
+.shadowDark {
+    box-shadow: rgb(227 227 227 / 10%) 0px 4px 12px;
+}
+
+/* .shadowLight {
+    box-shadow: 0 0.5rem 1.2rem rgb(189 197 209 / 20%);
+} */
+
+.sc-dJGLgI {
+    padding-left: 16px !important;
+}
+
+.dimTheme .sc-iKOmII .sc-eAKtVq button svg {
+    filter: invert();
+}
+
+.darkTheme .sc-iKOmII .sc-eAKtVq button svg {
+    filter: invert();
+}
+
+.metaLight:hover {
+    /* color: rgba(7, 132, 195, 0.9); */
+    transition: .2s ease-in-out;
+    opacity: 0.8;
+}
+
+.metaDim {
+    color: #cbd5e1;
+    background-color: #141f35;
+}
+
+.metaDim:hover {
+    /* color: rgba(7, 132, 195, 0.9); */
+    opacity: 0.8;
+    /* transition: 0.8s; */
+    transition: .2s ease-in-out;
+}
+
+.metaDark {
+    color: #cbd5e1;
+    background-color: #151515;
+}
+
+.metaDark:hover {
+    /* color: rgba(7, 132, 195, 0.9); */
+    transition: .2s ease-in-out;
+    opacity: 0.8;
+}
+
+.addToMetaMask {
+    font-size: 12px;
+}
+
+.fgjSOd {
+    font-size: 1rem;
+}
+
+.cChYmS {
+    font-size: 1rem;
+}
+
+.rdt_TableHeader div {
+    font-size: 1rem;
+}
